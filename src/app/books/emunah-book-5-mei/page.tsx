@@ -36,7 +36,7 @@ She had one shot.
 In a single movement, she drew her gun and blasted a sphere at his forehead. His bulletproof skin dissolved, but the explosive did not go off.
 
 "No," she paled as Ben's lips curled in a cruel smirk.`,
-    authorNotes: "I heard from friends about the underground church in a country in China, and based the community Mei joined after she was thrown out from her home on such a church. Persecution of Christians is already rife around the world, even before the start of the 7 year Tribulation. Mei is from such a nation where the true church is oppressed.",
+    authorNotes: "I heard from friends about the underground church in China, and based the community Mei joined after she was thrown out from her home on such a church. Persecution of Christians is already rife around the world, even before the start of the 7 year Tribulation. Mei is from such a nation where the true church is oppressed.",
     buyLinks: [
       { name: "Amazon", url: "https://www.amazon.com.au/Mei-5-Janice-Wee/dp/B0DGDFTP31" },
       { name: "Barnes & Noble", url: "https://www.barnesandnoble.com/w/mei-janice-wee/1146253390" },
