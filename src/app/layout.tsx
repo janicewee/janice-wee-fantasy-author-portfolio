@@ -25,6 +25,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="antialiased">
+        <script defer src="https://cloud.umami.is/script.js" data-website-id="546b9e9c-9967-4921-82d9-450005cde91c"></script>
         <ErrorReporter />
         <Script
           src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/scripts//route-messenger.js"
