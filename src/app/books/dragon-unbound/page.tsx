@@ -108,6 +108,22 @@ export default function DragonUnboundPage() {
             </Card>
           </section>
 
+          {/* Video Trailer */}
+          <section className="mb-12">
+            <h2 className="text-3xl font-bold text-primary mb-6">Book Trailer</h2>
+            <div className="relative w-full aspect-video rounded-lg overflow-hidden shadow-lg">
+              <iframe
+                width="100%"
+                height="100%"
+                src="https://youtu.be/tU4LnnpnbUQ?si=Unji-XUxtAJXN4r7"
+                title="Dragon Unbound Book Trailer 2"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                className="absolute inset-0"
+              />
+            </div>
+          </section>
+          
           {/* Emunah Chronicles Timeline Link */}
           <section className="mb-12">
             <Card className="p-8 bg-gradient-to-br from-primary/5 to-secondary/5 border-2 border-primary/20">
