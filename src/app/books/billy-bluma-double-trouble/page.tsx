@@ -98,8 +98,7 @@ export default function BillyBlumaPage() {
                 </p>
                 <p className="text-foreground leading-relaxed mb-4">
                   The map points to a hidden treasure, but getting there means facing dangers the children 
-                  never imagined. With Leonard's tooth aching and the mystery deepening, Billy and Bluma 
-                  must use their wits, courage, and faith to uncover the truth behind the glowing orb.
+                  never imagined. Instead of leading them to Aunt Mathilda, the map leads them into the clutches of cult leader, Junta.
                 </p>
                 <p className="text-foreground leading-relaxed">
                   Filled with humor, heart-pounding adventures, and valuable lessons about friendship and 
