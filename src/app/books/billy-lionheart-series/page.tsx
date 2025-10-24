@@ -15,7 +15,7 @@ const seriesBooks = [
   {
     title: "Billy The Lion Boy",
     coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/billylionheart-1760074636207.jpg",
-    videoUrl: "https://www.youtube.com/embed/rjkZTe1RwhE",
+    videoUrl: "https://www.youtube.com/embed/gUyVcBpgoas",
     description: "Billy is an orphan who yearns to be reunited with his parents. His guardian is a lion who is his fierce protector despite the youngster's penchant for mischief.",
     bookUrl: "https://www.janicewee.com/books/billy-the-lion-boy"
   },
