@@ -55,7 +55,7 @@ export default function BillyLionheartSeriesPage() {
                 </a>
               </Button>
               <Button asChild variant="outline" size="lg" className="md:ml-3">
-                <a href="https://www.barnesandnoble.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.barnesandnoble.com/s/billy%20the%20lion%20boy%20janice%20wee" target="_blank" rel="noopener noreferrer">
                   Buy on Barnes & Noble
                   <ExternalLink className="ml-2 h-4 w-4" />
                 </a>
