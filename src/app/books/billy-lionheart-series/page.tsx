@@ -4,6 +4,7 @@ import { Star, ExternalLink } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { Card } from '@/components/ui/card'
 import type { Metadata } from 'next'
+import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: "Billy Lionheart Series - Janice Wee",
@@ -15,19 +16,22 @@ const seriesBooks = [
     title: "Billy The Lion Boy",
     coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/billylionheart-1760074636207.jpg",
     videoUrl: "https://www.youtube.com/embed/rjkZTe1RwhE",
-    description: "Billy is an orphan who yearns to be reunited with his parents. His guardian is a lion who is his fierce protector despite the youngster's penchant for mischief."
+    description: "Billy is an orphan who yearns to be reunited with his parents. His guardian is a lion who is his fierce protector despite the youngster's penchant for mischief.",
+    bookUrl: "https://www.janicewee.com/books/billy-the-lion-boy"
   },
   {
     title: "Billy & Bluma: Double Trouble",
     coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/billybluma-1760074636547.jpg",
     videoUrl: "https://www.youtube.com/embed/KXufmLKZva8",
-    description: "Billy and Bluma team up for twice the adventure and twice the mischief in this exciting continuation of their story."
+    description: "Billy and Bluma team up for twice the adventure and twice the mischief in this exciting continuation of their story.",
+    bookUrl: "https://www.janicewee.com/books/billy-bluma-double-trouble"
   },
   {
     title: "Secret Hero & His Flying Lion",
     coverUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/billyhero-1760074637493.jpg",
     videoUrl: "https://www.youtube.com/embed/_25vtHegnl4",
-    description: "Billy discovers new powers as he and his lion companion soar to greater heights in their most thrilling adventure yet."
+    description: "Billy discovers new powers as he and his lion companion soar to greater heights in their most thrilling adventure yet.",
+    bookUrl: "https://www.janicewee.com/books/secret-hero-flying-lion"
   }
 ]
 
@@ -76,18 +80,22 @@ export default function BillyLionheartSeriesPage() {
                 <div className="grid md:grid-cols-2 gap-8">
                   {/* Book Cover */}
                   <div className="order-1">
-                    <div className="relative aspect-[2/3] rounded-lg overflow-hidden shadow-xl mx-auto max-w-sm">
-                      <img
-                        src={book.coverUrl}
-                        alt={book.title}
-                        className="w-full h-full object-cover"
-                      />
-                    </div>
+                    <Link href={book.bookUrl}>
+                      <div className="relative aspect-[2/3] rounded-lg overflow-hidden shadow-xl mx-auto max-w-sm cursor-pointer transition-transform hover:scale-105">
+                        <img
+                          src={book.coverUrl}
+                          alt={book.title}
+                          className="w-full h-full object-cover"
+                        />
+                      </div>
+                    </Link>
                   </div>
 
                   {/* Book Info */}
                   <div className={`order-2 flex flex-col justify-center ${index % 2 === 0 ? 'md:order-2' : 'md:order-1'}`}>
-                    <h2 className="text-3xl font-bold text-primary mb-4">{book.title}</h2>
+                    <Link href={book.bookUrl}>
+                      <h2 className="text-3xl font-bold text-primary mb-4 hover:underline cursor-pointer">{book.title}</h2>
+                    </Link>
                     <p className="text-foreground mb-6 leading-relaxed text-lg">
                       {book.description}
                     </p>
