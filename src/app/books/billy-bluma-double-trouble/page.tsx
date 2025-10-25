@@ -69,12 +69,13 @@ export default function BillyBlumaPage() {
               <iframe
                 width="100%"
                 height="100%"
-                src="https://www.youtube.com/embed/KXufmLKZva8"
-                title="Billy & Bluma: Double Trouble Book Trailer"
+                src="https://www.youtube.com/embed/MfRjEy6pyg4"
+                title="Billy & Bluma: Double Trouble. Junta's Trap Book Trailer"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
                 className="absolute inset-0"
               />
+              
             </div>
           </section>
 
