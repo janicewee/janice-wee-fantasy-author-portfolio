@@ -16,6 +16,15 @@ export const metadata: Metadata = {
 
 const blogPosts = [
   {
+    id: 47,
+    title: "The Cursed Box",
+    date: "August 23, 2026",
+    author: "Janice Wee",
+    excerpt: "The story of Lydia's cursed box begins in Emunah Short Stories Book 2: Oliver and ends in Emunah Short Stories Book 3: Emunah. Lydia is held in thrall by a box that she believes holds the ashes of her dead father, mother and brother. Their ghosts talk to her. But the thing is, her father's not dead.",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book3emunah-1760404534743.jpg",
+    slug: "the-cursed-box"
+  },
+  {
     id: 46,
     title: "Why Lord?",
     date: "August 16, 2026",

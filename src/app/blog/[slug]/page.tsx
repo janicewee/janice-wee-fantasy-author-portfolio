@@ -15,6 +15,35 @@ const blogPosts: Record<string, {
   content: string
   imageUrl: string
 }> = {
+  'the-cursed-box': {
+    title: "The Cursed Box",
+    date: "August 23, 2026",
+    author: "Janice Wee",
+    imageUrl: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/book3emunah-1760404534743.jpg",
+    content: `
+The story of Lydia's cursed box begins in Emunah Short Stories Book 2: Oliver and ends in Emunah Short Stories Book 3: Emunah.
+
+## She Talked to a BOX Every Day — Believing Her Dead Parents Lived Inside | Emunah Book Trailer
+
+[youtube:https://www.youtube.com/embed/sUoavf9iDaI]
+
+## Lydia's Cursed Box
+
+Lydia is held in thrall by a box that she believes holds the ashes of her dead father, mother and brother. Their ghosts talk to her.
+
+But the thing is, her father's not dead. Oliver found their father Denver, and brought him home. Those voices were familiar spirits which deceived her.
+
+## Emunah and Oliver
+
+Jayden matchmakes Emunah with Oliver. Though they had no romantic feelings for each other, Emunah and Oliver drew so close, as brother and sister, that Oliver brought Emunah home to meet his family, with the hopes that she might help his sister break the spell.
+
+What happens after that?
+
+## Read the Book
+
+Read the book Emunah to find out. It's available at [janicewee.com](https://www.janicewee.com/books/emunah-book-3-emunah).
+    `
+  },
   'why-lord': {
     title: "Why Lord?",
     date: "August 16, 2026",
