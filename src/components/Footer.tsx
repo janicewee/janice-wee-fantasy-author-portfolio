@@ -72,8 +72,27 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-border mt-8 pt-8 text-center text-sm text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} Janice Wee. All rights reserved.</p>
+        <div className="border-t border-border mt-8 pt-8">
+          <div className="flex flex-col sm:flex-row justify-center items-center gap-4 mb-4">
+            <a
+              href="https://www.billylionheart.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm text-muted-foreground hover:text-primary transition-colors"
+            >
+              Discover The Adventures of Billy Lionheart
+            </a>
+            <span className="hidden sm:inline text-muted-foreground">·</span>
+            <a
+              href="https://emunahchronicles.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm text-muted-foreground hover:text-primary transition-colors"
+            >
+              Explore the Emunah Chronicles Universe
+            </a>
+          </div>
+          <p className="text-center text-sm text-muted-foreground">&copy; {new Date().getFullYear()} Janice Wee. All rights reserved.</p>
         </div>
       </div>
     </footer>
